@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pages/pages/QAScreen.dart';
-import 'package:pages/pages/login.dart';
-// import 'package:pages/pages/login.dart';
+import 'package:pages/pages/item_details.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const LoginView(),
+      home: const ItemDetailScreen(),
     );
-  }
+  } 
 }

@@ -37,6 +37,7 @@ dependencies:
   expandable: ^5.0.1
   flutter_linkify: ^5.0.2
   url_launcher: ^6.1.5
+  carousel_slider: ^4.1.1
 
 dev_dependencies:
   flutter_test:
